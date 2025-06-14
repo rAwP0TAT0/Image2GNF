@@ -65,7 +65,7 @@ More tests are needed here.
 
 Here's a GIF demonstrating the app:
 
-![App Demo](https://github.com/rAwP0TAT0/Image2GNF/blob/main/images/Demo.gif
+![App Demo](https://github.com/rAwP0TAT0/Image2GNF/blob/main/images/Demo1.mp4
 
 
 
