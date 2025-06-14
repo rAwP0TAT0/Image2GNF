@@ -20,9 +20,10 @@ All images must have the same dimensions (e.g., 1024x512 or 640x360).
 Use the provided PowerShell script to convert JPEG frames into a GNF file for PS5. The script dynamically detects the number of test1_*.jpg files and creates a 2DArray texture.
 
 
-First you need to use ffmpeg to grab frames from a video
+First you need to use ffmpeg to grab frames from a video or you can use free online tool if you want ex: <href link="https://image.online-convert.com/convert/mp4-to-jpg"/>
 
-by @rlan on Github(https://github.com/rlan)
+- by @rlan on Github(https://github.com/rlan)
+
 # Video and JPG conversion using FFMPEG
 
 ## Grab one frame from video
@@ -51,21 +52,31 @@ ffmpeg -f image2 -framerate 30 -i %06d.jpg -c:v libx264 out.mp4
 
 After getting the frames from a video (i used 101 frames to generate a gnf file) you will be using a Powershell script to create the file.
 
+## Test with patience if you want to add frames more than 101 (the more frames, more heavier file it gets and might not work in PS5)
+
 You will ALSO need the PS5 SDK tools for this to work. I will not provide it, only the way to make gnf files using this Powershell script.
 
+## Renaming the file
 
 Rename the output.gnf into "Sce.Vsh.ShellUI.BGLayer.Particle0.gnf"
 
-Finally you can test the output.gnf by inserting it into system_ex/vsh_asset/ after renaming.
 
-IMPORTANT:
-I have not tested this but to only have both of them modified with the same output.gnf file, like "..Particle0.gnf, ..Particle1.gnf"
+## Uploading into Playstation
+Finally you can test the output.gnf by inserting it into 
+```
+system_ex/vsh_asset/output.gnf 
+```
+after renaming.
 
-More tests are needed here.
 
-Here's a GIF demonstrating the app:
+**IMPORTANT:**
+*I have not tested this but to only have both of them modified with the same output.gnf file, like "..Particle0.gnf, ..Particle1.gnf"
+More tests are needed here.**
+
+## Here's a Video demonstrating the modified file:
 
 [![Watch the video](https://raw.githubusercontent.com/rAwP0TAT0/Image2GNF/main/assets/Demo1.jpg)](https://raw.githubusercontent.com/rAwP0TAT0/Image2GNF/main/assets/Demo1.mp4)
 
 
 Disclaimer: The author does not provide the PS5 SDK or any proprietary Sony tools. Users must be licensed PS5 developers with legal access to the SDK. The script assumes 101 frames (or any count) named test1_XXX.jpg. 
+This script is in alpha stage and it will need more work for progression. It is provided for free-to-use and in as is.
