@@ -80,6 +80,12 @@ More tests are needed here.**
 **Source for the video I used from Youtube:**
 [![Video Title](https://img.youtube.com/vi/c3abfWsQk-M/0.jpg)](https://youtu.be/c3abfWsQk-M)
 
+## TODO:
+- [x] Publish script
+- [ ] Make a Tool from this script
+- [ ] Include MP4 to JPG into the tool
+- [ ] More ideas needed ..
+
 
 Disclaimer: The author does not provide the PS5 SDK or any proprietary Sony tools. Users must be licensed PS5 developers with legal access to the SDK. The script assumes 101 frames (or any count) named test1_XXX.jpg. 
 This script is in alpha stage and it will need more work for progression. It is provided for free-to-use and in as is.
