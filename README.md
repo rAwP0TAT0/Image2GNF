@@ -20,7 +20,7 @@ All images must have the same dimensions (e.g., 1024x512 or 640x360).
 Use the provided PowerShell script to convert JPEG frames into a GNF file for PS5. The script dynamically detects the number of test1_*.jpg files and creates a 2DArray texture.
 
 
-First you need to use ffmpeg to grab frames from a video or you can use free online tool if you want ex: <href link="https://image.online-convert.com/convert/mp4-to-jpg"/>
+First you need to use ffmpeg to grab frames from a video or you can use free online tool if you want ie: (https://image.online-convert.com/convert/mp4-to-jpg)
 
 - by @rlan on Github(https://github.com/rlan)
 
@@ -76,6 +76,9 @@ More tests are needed here.**
 ## Here's a Video demonstrating the modified file:
 
 [![Watch the video](https://raw.githubusercontent.com/rAwP0TAT0/Image2GNF/main/assets/Demo1.jpg)](https://raw.githubusercontent.com/rAwP0TAT0/Image2GNF/main/assets/Demo1.mp4)
+
+**Source for the video I used from Youtube:**
+[![Video Title](https://img.youtube.com/vi/c3abfWsQk-M/0.jpg)](https://youtu.be/c3abfWsQk-M)
 
 
 Disclaimer: The author does not provide the PS5 SDK or any proprietary Sony tools. Users must be licensed PS5 developers with legal access to the SDK. The script assumes 101 frames (or any count) named test1_XXX.jpg. 
