@@ -66,7 +66,7 @@ More tests are needed here.
 Here's a GIF demonstrating the app:
 
 [App Demo]
-![/Demo1.mp4](/Demo1.mp4)
+![assets/Demo1.mp4](assets/Demo1.mp4)
 
 
 
