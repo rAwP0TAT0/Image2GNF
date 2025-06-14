@@ -66,7 +66,7 @@ More tests are needed here.
 Here's a GIF demonstrating the app:
 
 [App Demo]
-<video src='https://github.com/rAwP0TAT0/Image2GNF/tree/main/Demo1.mp4' width=180/> 
+<video src='Demo1.mp4' width=180/> 
 
 
 
