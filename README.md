@@ -66,7 +66,14 @@ More tests are needed here.
 Here's a GIF demonstrating the app:
 
 [App Demo]
-![assets/Demo1.mp4](assets/Demo1.mp4)
+<p align="center">
+  <video src="assets/Demo1.mp4" width="500px"></video>
+</p>
+
+<video src="assets/Demo1.mp4" width="320" height="240" controls></video>
+
+![non working video](assets/Demo1.mp4)
+
 
 
 
