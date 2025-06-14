@@ -66,15 +66,7 @@ More tests are needed here.
 Here's a GIF demonstrating the app:
 
 [App Demo]
-<p align="center">
-  <video src="assets/Demo1.mp4" width="500px"></video>
-</p>
-
-<video src="assets/Demo1.mp4" width="320" height="240" controls></video>
-
-![Demo1.mp4](assets/Demo1.mp4)
-
-
+<video src="https://github.com/rAwP0TAT0/Image2GNF/tree/main/assets/Demo1.mp4" width="352" height="720"></video>
 
 
 Disclaimer: The author does not provide the PS5 SDK or any proprietary Sony tools. Users must be licensed PS5 developers with legal access to the SDK. The script assumes 101 frames (or any count) named test1_XXX.jpg. 
