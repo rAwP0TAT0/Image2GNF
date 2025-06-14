@@ -66,8 +66,7 @@ More tests are needed here.
 Here's a GIF demonstrating the app:
 
 [App Demo]
-<video src='Demo1.mp4' width=180/> 
-
+![main/Demo1.mp4](main/Demo1.mp4)
 
 
 
