@@ -52,7 +52,10 @@ ffmpeg -f image2 -framerate 30 -i %06d.jpg -c:v libx264 out.mp4
 
 After getting the frames from a video (i used 101 frames to generate a gnf file) you will be using a Powershell script to create the file.
 
-## Test with patience if you want to add frames more than 101 (the more frames, more heavier file it gets and might not work in PS5)
+## Test with patience ~~if you want to add frames more than 101~~ (the more frames, more heavier file it gets and might not work in PS5)
+
+*UPDATE:**
+It is not recommended to use **300 images** as the program will crash. 
 
 You will ALSO need the PS5 SDK tools for this to work. I will not provide it, only the way to make gnf files using this Powershell script.
 
@@ -83,7 +86,8 @@ More tests are needed here.**
 ## TODO:
 - [x] Publish script
 - [ ] Make a Tool from this script
-- [ ] Include MP4 to JPG into the tool
+- [ ] Include MP4 to JPG Converter into the tool
+- [ ] Make a GNFViewer app for PS5
 - [ ] More ideas needed ..
 
 
