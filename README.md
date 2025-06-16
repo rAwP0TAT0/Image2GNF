@@ -22,9 +22,9 @@ Use the provided PowerShell script to convert JPEG frames into a GNF file for PS
 
 First you need to use ffmpeg to grab frames from a video or you can use free online tool if you want ie: (https://image.online-convert.com/convert/mp4-to-jpg)
 
-- by @rlan on Github(https://github.com/rlan)
 
 # Video and JPG conversion using FFMPEG
+- by @rlan on Github(https://github.com/rlan)
 
 ## Grab one frame from video
 
